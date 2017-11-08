@@ -4,4 +4,4 @@ ADD . /src
 
 RUN sh /src/provision.sh
 
-CMD ["/usr/bin/supervisord", "-c", "/src/supervisord.conf"]
+CMD ["sh", "/src/run.sh"]
